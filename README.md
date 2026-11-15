@@ -15,12 +15,8 @@ Android engineer (2018–2022) → backend engineer (Kotlin/Ktor, Python/Django)
 - **Evaluation and tracing**: golden datasets, LLM-as-judge and Langfuse
 - **Cost and latency work**: smaller models, prompt caching and multi-region endpoints
 
-### Open-source experiments
-| Project | What it shows |
-|---|---|
-| [retrieval-bench](https://github.com/ujwalthote/retrieval-bench) | BM25, dense, hybrid and reranking on 41 annual reports, scored against the Enterprise RAG Challenge's gold pages. Query cleaning lifted BM25 hit@5 by 62%; naive hybrid search scored below dense alone |
-
-More on the way: model routing and caching benchmarks, and a fine-tuned coding agent for the Kaggle Gemma 4 competition.
+### Currently building
+Small, well-tested AI engineering projects, one step at a time. Coming soon.
 
 ### Stack
 **Languages:** Python · Kotlin · Java
