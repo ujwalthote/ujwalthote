@@ -1,34 +1,29 @@
-# Hi, I'm Ujwal Thote 👋
+# Hi, I'm Ujwal 👋
 
-### **Lead Software & AI Engineer** | Pune, India
-Specializing in **Autonomous Multi-Agent Systems**, **Model Context Protocol (MCP)**, **Production RAG**, and **Distributed Backend Systems**.
+**Lead Software Engineer** at Coditas, Pune · 8+ years
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ujwal_Thote-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/ujwalthote)
+Android engineer (2018–2022) → backend engineer (Kotlin/Ktor, Python/Django) → building production Gen AI systems since 2023.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ujwalthote-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/ujwalthote)
 [![Email](https://img.shields.io/badge/Email-thoteujwal97@gmail.com-D14836?style=flat-square&logo=gmail)](mailto:thoteujwal97@gmail.com)
 
----
+### What I build at work
+- **LLM workflows and agents** with LangGraph, LangChain and the OpenAI Agents SDK, with Pydantic-validated outputs
+- **Document pipelines**: agentic OCR, structured extraction, and hybrid RAG on PostgreSQL + PGVector
+- **Async backends** with Celery and RabbitMQ, scaled on Azure AKS, plus Azure Functions
+- **MCP servers** that expose internal workflows as tools to other agentic systems
+- **Evaluation and tracing**: golden datasets, LLM-as-judge and Langfuse
+- **Cost and latency work**: smaller models, prompt caching and multi-region endpoints
 
-### 🧠 Core Architectural Focus
-* **Multi-Agent Orchestration & Tool Calling:** Designing resilient multi-agent graph topologies using LangGraph, CrewAI, and native Model Context Protocol (MCP) servers with deterministic Pydantic schema validation.
-* **Production RAG Systems:** Architecting hierarchical retrieval pipelines with hybrid dense/sparse search (BM25 + Vector), contextual reranking (Cohere), and systematic evaluation using RAGAS and DeepEval metrics.
-* **High-Throughput Distributed Backends:** Designing resilient, asynchronous microservices using Python (FastAPI/AsyncIO), Redis distributed caching, Celery task workers, and relational/NoSQL datastores (PostgreSQL, MongoDB).
-* **Cloud & DevOps:** Containerized deployments using Docker, Kubernetes, GitHub Actions CI/CD pipelines across AWS and Azure.
+### Open-source experiments
+| Project | What it shows |
+|---|---|
+| [retrieval-bench](https://github.com/ujwalthote/retrieval-bench) | BM25, dense, hybrid and reranking on 41 annual reports, scored against the Enterprise RAG Challenge's gold pages. Query cleaning lifted BM25 hit@5 by 62%; naive hybrid search scored below dense alone |
 
----
+More on the way: model routing and caching benchmarks, and a fine-tuned coding agent for the Kaggle Gemma 4 competition.
 
-### 🛠️ Technical Stack
-* **Languages & Core:** Python 3.12+, TypeScript, Kotlin, Java, SQL
-* **AI & Agentic Frameworks:** Model Context Protocol (MCP), LangGraph, LangChain, LlamaIndex, LiteLLM
-* **Vector Databases & Search:** Qdrant, ChromaDB, PGVector, Elasticsearch / OpenSearch
-* **Evaluation & Guardrails:** RAGAS, DeepEval, Pydantic, Instructor
-* **Backends & Data:** FastAPI, Celery, Redis, PostgreSQL, MongoDB, RabbitMQ
-* **Cloud & Infrastructure:** Docker, Kubernetes, AWS, Azure, CI/CD Actions
-
----
-
-### 🚀 Featured System Architecture
-* **Enterprise Multi-Agent Claims Automation Suite:**
-  * Multi-agent decision pipeline integrating custom Model Context Protocol (MCP) servers.
-  * Hierarchical document chunking, hybrid retrieval, and automated RAGAS quality evaluation benchmarks.
-
----
+### Stack
+**Languages:** Python · Kotlin · Java
+**AI:** LangGraph · LangChain · OpenAI Agents SDK · MCP · Langfuse · Pydantic
+**Backend and data:** Django · Celery · RabbitMQ · PostgreSQL · PGVector
+**Cloud:** Azure (AKS, Functions, Blob Storage)
